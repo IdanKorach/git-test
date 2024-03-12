@@ -1,5 +1,7 @@
-def multiply(a, b):
+def multiply():
+    a = float(input("Enter the value of a: "))
+    b = float(input("Enter the value of b: "))
     print(f"Result = {a * b}")
 
 
-multiply(3, 5)
+multiply()
